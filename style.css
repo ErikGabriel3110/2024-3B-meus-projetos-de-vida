@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins&display=swap');
+
+
+
+:root{
+    --cinza-claro:#66645f;
+    --branco:#ffffff;
+    --azul-tiffany:#0abab5;
+    --preto:#000000;
+    --fonte-titulo:"Poppins", sans-serif;
+    --font-texto:"Comfortaa", sans-serif;
+}
+
+body{
+    background-color: var(--azul-claro);
+}
