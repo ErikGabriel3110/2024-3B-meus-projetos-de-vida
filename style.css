@@ -53,22 +53,38 @@ body{
     border-right: 4px solid var(--azul-tiffany);
     border-top: none;
 }
-
 .botoes{
     display: block;
 }
-
 .botao:first-child{
     border-radius: 40px 40px 0 0;
 }
-
 .botao:last-child{
     border-radius: 0 0 40px 40px;
 }
-
-.ativo{
+.botao.ativo{
     background-color: var(--cinza-escuro);
     border-bottom: 4px solid var(--azul-tiffany);
+}
+.abas-textos{
+    background-color: var(--cinza-claro);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+.aba-conteudo.ativo{
+    display: block;
+}
+.aba-conteudo{
+    display: none;
+}
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+.aba-conteudo-titulo-secundario{
+    text-align: center;
+    color: var(--branco);
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px){
