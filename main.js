@@ -3,10 +3,10 @@ const textos = document.querySelectorAll('.aba-conteudo');
 
 const contadores = document.querySelectorAll('.contador')
 
-const tempoObjetivo01 = new Date("2024-08-31t00:00:00")
+const tempoObjetivo01 = new Date("2024-05-20t00:00:00")
 const tempoObjetivo02 = new Date("2024-08-31t00:00:00")
 const tempoObjetivo03 = new Date("2024-08-31t00:00:00")
-const tempoObjetivo04 = new Date("2024-08-31t00:00:00")
+const tempoObjetivo04 = new Date("2024-12-25t00:00:00")
 
 const tempos = [tempoObjetivo01, tempoObjetivo02, tempoObjetivo03, tempoObjetivo04];
 
